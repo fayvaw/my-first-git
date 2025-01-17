@@ -15,28 +15,31 @@ check = int(input("Please enter another number: "))
 """If num is divisible by 4, your code will print both '... is an even number'
 and '... is a multiple of 4'. You may want to rearrange your code so that it prints
 a different message '...is a multiple of 4' only. THUS::: """
-if num % 4 == 0:    #FAVOUR
-    print(f"{num} is a multiple of 4")  #FAVOUR
-elif num % 2 ==0:  #FAVOUR
-    print (f"{num} is an even number")  #FAVOUR
-else:
-    print(f"{num} is an odd number")
-
-if check % num == 0:
-    print(f"{check} is a factor of {num}")
-else:
-    print("Not possible")
+# if num % 4 == 0:    #FAVOUR
+#     print(f"{num} is a multiple of 4")  #FAVOUR
+# elif num % 2 ==0:  #FAVOUR
+#     print (f"{num} is an even number")  #FAVOUR
+# else:
+#     print(f"{num} is an odd number")
+#
+# if check % num == 0:
+#     print(f"{check} is a factor of {num}")
+# else:
+#     print("Not possible")
 
     
 #assignment week 3
 a = [1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89]
 
-# less_than_five =[x for x in a if x < 5]
-# print("Elements less than five is:", less_than_five)
+less_than_five =[x for x in a if x < 5]
+print("Elements less than five is:", less_than_five)
 
-# new_num = int(input("Please enter a number: "))
-# less_than_user_input =[x for x in a if x < new_num]
-# print(f"elements less than {new_num}:", less_than_user_input)
+new_num = int(input("Please enter a number: "))
+less_than_user_input =[x for x in a if x < new_num]
+print(f"elements less than {new_num}:", less_than_user_input)
+
+"""Week 3 solution is impressive.
+I'm proud of you"""
 
 #assignment week 4
 number = int(input("Please enter a number: "))
