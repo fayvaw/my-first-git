@@ -4,23 +4,29 @@ Created on Mon Jan 13 09:04:17 2025
 
 @author: Eberechukwu Okonkwo
 """
-# num = int(input("Please enter a number: "))
-# check = int(input("Please enter another number: "))
+num = int(input("Please enter a number: "))
+check = int(input("Please enter another number: "))
 
 # if num % 2 ==0:
 #     print (f"{num} is an even number")
-    
+#
 #     if num % 4 == 0:
 #         print(f"{num} is a multiple of 4")
+"""If num is divisible by 4, your code will print both '... is an even number'
+and '... is a multiple of 4'. You may want to rearrange your code so that it prints
+a different message '...is a multiple of 4' only. THUS::: """
+if num % 4 == 0:    #FAVOUR
+    print(f"{num} is a multiple of 4")  #FAVOUR
+elif num % 2 ==0:  #FAVOUR
+    print (f"{num} is an even number")  #FAVOUR
+else:
+    print(f"{num} is an odd number")
 
-# else:
-#     print(f"{num} is an odd number")
-  
-# if check % num == 0:
-#     print(f"{check} is a factor of {num}")
-# else:
-#     print("Not possible")
-    
+if check % num == 0:
+    print(f"{check} is a factor of {num}")
+else:
+    print("Not possible")
+
     
 #assignment week 3
 a = [1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89]
